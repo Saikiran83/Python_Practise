@@ -1,5 +1,6 @@
 #skip the current iteration and continue the next iteration
-for i in range(10):
-    if i%2==0:
-        continue
-    print(i)
+cart=[100,200,50,500,700,10]
+for item in cart:
+    if item>=500:
+        print("we cannot process this item:",item)
+    print(item)
