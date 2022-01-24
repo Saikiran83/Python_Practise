@@ -13,7 +13,7 @@ print(output)
 
 #A3B4C2
 #AAABBBBCC
-s='A3B4C2'
+s='A3C4B2'
 output=''
 for ch in s:
     if ch.isalpha():
@@ -21,4 +21,5 @@ for ch in s:
     else:
         d=int(ch)
         output=output+x*d
-print(output)
+print(''.join(sorted(output)))##gives sorted op AAABBCCCC
+print(output)#AAACCCCBB
