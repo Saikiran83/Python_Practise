@@ -1,4 +1,4 @@
-n=int(input("enter the number t0 guess:"))
+n=int(input("enter the number to guess:"))
 print("maximum number of guesses is 9")
 number_of_guesses=1
 while number_of_guesses<=9:
