@@ -24,10 +24,10 @@ l=[0,5,10,15,20,25,30]
 l1=list(filter(lambda x:x%2==0,l)) 
 print(l1) #[0,10,20,30] 
 
-#map() function
-#for every element present in the given sequence,apply some functionality and 
-#generate new element with the required modification.
-#map(function, sequence)
+"""map() function
+for every element present in the given sequence,apply some functionality and 
+generate new element with the required modification.
+map(function, sequence)"""
 l=[1,2,3,4,5] 
 l1=list(map(lambda x:2*x,l)) 
 print(l1) #[2, 4, 6, 8, 10] 
