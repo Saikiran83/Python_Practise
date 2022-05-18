@@ -5,41 +5,39 @@ For total class only one copy of static variable will be created and shared by a
 of that class.
 We can access static variables either by class name or by object reference. But 
 recommended to use class name. """
-class Test: 
-    x=10 
-    def __init__(self): 
-        self.y=20  
-t1=Test() 
-t2=Test() 
-print('t1:',t1.x,t1.y) 
-print('t2:',t2.x,t2.y) 
-Test.x=888 
-t1.y=999 
-print('t1:',t1.x,t1.y) 
-print('t2:',t2.x,t2.y) 
+class sai:
+    x = 10
+    def __init__(self):
+        self.a = 10
+s = sai()
+s1 = sai()
+print(s.x,s.a)
+s.x = 100
+sai.x = 100
+print(s.x,s.a)
+print(s1.x,s1.a)
 """ Output
-t1: 10 20
-t2: 10 20
-t1: 888 999
-t2: 888 20 """
-
+10 10
+100 10
+100 10 """
 """ Various Places to declare Static Variables:
 1) In general we can declare within the class directly but from out side of any method
 2) Inside constructor by using class name
 3) Inside instance method by using class name
 4) Inside classmethod by using either class name or cls variable
 5) Inside static method by using class name """
-class Test: 
+class Test:
+
     a=10 
     def __init__(self): 
         Test.b=20 
     def m1(self): 
         Test.c=30 
-# @classmethod 
+    @classmethod 
     def m2(cls): 
         cls.d1=40 
         Test.d2=400 
- #@staticmethod 
+    @staticmethod 
     def m3(): 
         Test.e=50 
 print(Test.__dict__) 

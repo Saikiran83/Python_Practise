@@ -8,10 +8,10 @@
 ☕ Constructor is optional and if we are not providing any constructor then python will 
 provide default constructor. """
 
-def __init__(self,name,rollno,marks): 
+"""def __init__(self,name,rollno,marks): 
     self.name=name 
     self.rollno=rollno 
-    self.marks=marks 
+    self.marks=marks """
 
 #Program to demonistrate Constructor will execute only once per Object:
 class Test: 
@@ -30,9 +30,10 @@ Constructor exeuction...
 Method execution...
  """
 #Program:
-class Student:      
+class Student:
+
  ''''' This is student class with required data''' 
-    def __init__(self,x,y,z): 
+    def __init__(self,x,y,z):
         self.name=x 
         self.rollno=y 
         self.marks=z 
@@ -64,3 +65,11 @@ Method Constructor
 4) Inside method we can write business logic 
 4) Inside Constructor we have to declare and 
  initialize instance variable """
+class sai:
+    def __init(self):
+        print("constructor called")
+    def talk(self):
+        print("method execution")
+s = sai()
+t = sai()
+w = s.talk()

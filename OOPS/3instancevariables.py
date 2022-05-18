@@ -7,13 +7,16 @@
 #1) Inside Constructor by using Self Variable:
 """ We can declare instance variables inside a constructor by using self keyword. Once we 
 creates object, automatically these variables will be added to the object. """
-class Employee:    
-    def __init__(self): 
-        self.eno=100 
-        self.ename='Durga' 
-        self.esal=10000 
-e=Employee() 
-print(e.__dict__) 
+class employee:
+    def __init__(self):
+        self.a = 10
+        self.b = 20 
+    def sai(self):
+        self.d = 10 
+        print("the sum is :",self.a+self.d)
+e = employee()
+e.sai()
+
 #Output: {'eno': 100, 'ename': 'Durga', 'esal': 10000}
 #2) Inside Instance Method by using Self Variable:
 """ We can also declare instance variables inside instance method by using self variable. If 

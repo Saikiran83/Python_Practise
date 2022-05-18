@@ -10,12 +10,12 @@ class sai:
         self.b = 20
     def m(self):
         del self.b
-t = sai()
-print(t.__dict__)
-t.m()
-print(t.__dict__)
-del t.a
-print(t.__dict__)
+s = sai()
+print(s.__dict__)
+s.m()
+print(s.__dict__)
+del s.a
+print(s.__dict__)
 #####################################
 """ Note: The instance variables which are deleted from one object,will not be deleted from 
 other objects.
