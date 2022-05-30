@@ -4,14 +4,13 @@ variables.
 Local variables will be created at the time of method execution and destroyed once 
 method completes.
 Local variables of a method cannot be accessed from outside of method. """
-class Test: 
-    def m1(self): 
-        a=1000 
-        print(a) 
-    def m2(self): 
-        b=2000 
+class test:
+    def m1(self):
+        a = 10
+        print(a)
+    def m2(self):
+        b =10 
         print(b)
-        #print(a)  we will get name error: name a not defined 
-t=Test() 
-t.m1() 
-t.m2() 
+t = test()
+t.m1()
+t.m2()
