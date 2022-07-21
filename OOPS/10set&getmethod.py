@@ -1,16 +1,10 @@
-""" Setter Method:
-setter methods can be used to set values to the instance variables. setter methods also 
-known as mutator methods.
-Syntax:
-def setVariable(self,variable):
- self.variable=variable
- """
-"""  Getter Method:
-Getter methods can be used to get values of the instance variables. Getter methods also 
-known as accessor methods.
-Syntax:
-def getVariable(self):
- return self.variable """
+#  We can used to set, get the values of instance varibles using setter, getter methods
+
+# Syntax:
+# def setVariable(self,variable):
+#     self.varible = variable
+# def getVariable(self):
+#  return self.variable 
 class Student: 
     def setName(self,name): 
         self.name=name  
