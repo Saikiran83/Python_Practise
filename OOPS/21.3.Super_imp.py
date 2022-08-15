@@ -114,9 +114,9 @@ class P:
 class C(P): 
     @staticmethod 
     def m1(): 
-    super().m1() #-->invalid 
-    super().m2() #--->invalid 
-    super().m3() #--->invalid  
+    #super().m1() #-->invalid 
+    #super().m2() #--->invalid 
+    #super().m3() #--->invalid  
 C.m1() 
 # RuntimeError: super(): no arguments
 # How to Call Parent Class Static Method from Child Class Static 
