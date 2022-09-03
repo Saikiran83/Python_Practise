@@ -1,0 +1,20 @@
+Abstraction is the concept in object-oriented programming that is used to hide the internal functionality of the classes from the users. In this, the users are familiar with the purpose of the class's methods but they don't know how they solve the purpose, which means that they know the inputs and expected outputs, but inner working is hidden.
+
+We can deduce from the above examples that abstraction helps us make everything more user-friendly and less complex. In the context of programming, Abstraction is used to make the life of other developers easy.
+
+Although Python is not a fully object-oriented programming language, as we can write a code in Python without creating any classes, it supports all the features of object-oriented programming including abstraction and abstract classes.
+
+abstract classes are used to create a blueprint of our classes as they don't contain the method implementation. This is a very useful capability especially in situations where child classes should provide their own separate implementation. Also, in complex projects involving large teams and a huge codebase, It is fairly difficult to remember all the class names.
+
+The importance of using abstract class in Python is that if our subclasses don’t follow that blueprint, Python will give an error. Thus we can make sure that our classes follow the structure and implement all the abstract methods defined in our abstract class.
+
+Also, by using the abstract classes, we can hide the unnecessary details from the user, and reduce the programming complexity to a great extent.
+CONCLUSION
+We can make abstract classes in Python using abc module of Python
+We can implement abstract classes by inheriting the ABC class
+We use @abstractmethod decorators to define abstract methods in Python
+Abstract classes help to provide the blueprint for another class
+Abstract classes may contain concrete methods
+Abstract classes cannot be instantiated
+Abstract classes ensure that our software is flexible enough to support future changes
+
