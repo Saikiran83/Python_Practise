@@ -1,4 +1,4 @@
-from numpy import outer
+
 from module1 import *
 print(add(10,10))
 

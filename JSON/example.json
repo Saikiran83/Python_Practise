@@ -1,0 +1,12 @@
+{
+    "John": {
+        "number": "+61 2 3617 9451",
+        "age": 19,
+        "address": "1 0 / 3 6 5   P a c i f i c   H i g h w a y ,   H o r n s b y   S y d n e y ,   N e w   S o u t h   W a l e s   A u s t r a l i a   \u00e2 \u20ac \u201c   2 0 7 7 ."
+    },
+    "Ravi": {
+        "number": "+91 9972354015",
+        "age": 21,
+        "address": "1 1 0   N e w   V o r a   H o u s e ,   K o r a m a n g a l a   B e n g a l u r u ,   K a r n a t a k a   I n d i a   \u00e2 \u20ac \u201c   5 6 0 0 7 8 ."
+    }
+}
