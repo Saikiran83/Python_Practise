@@ -25,7 +25,7 @@ def decor(func):
 @decor 
 def wish(name): 
     print("Hello",name,"Good Morning") 
- 
+# wish("Durga") = decor(durga)
 wish("Durga") 
 wish("Ravi") 
 wish("Sunny") 
